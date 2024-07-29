@@ -1,0 +1,6 @@
+package com.oguzhanozgokce.composeb2b.data.model.response
+
+open class BaseResponse(
+    val status: Int? = null,
+    val message: String? = null
+)
